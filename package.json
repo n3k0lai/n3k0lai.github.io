@@ -1,6 +1,7 @@
 {
-    "name": "NicholaiGoodall",
+    "name": "[ortfolio-website",
     "description": "My portfolio website",
+    "author": "Nicholai Goodall"
     "version": "0.0.2",
     "dependencies": {
         "coffee-script": "*",
