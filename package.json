@@ -1,0 +1,9 @@
+{
+    "name": "NicholaiGoodall",
+    "description": "My portfolio website",
+    "version": "0.0.2",
+    "dependencies": {
+        "coffee-script": "*",
+        "angular": "*"
+    }
+}
