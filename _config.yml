@@ -1,0 +1,9 @@
+name: "Portfolio"
+description: "My portfolia"
+
+url: "nichol.ai"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
