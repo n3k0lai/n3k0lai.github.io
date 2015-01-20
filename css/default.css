@@ -29,19 +29,18 @@ h3{
 }
 h4{
     font-family: 'Lobster', cursive;
-    color: #00FFFF;
+    color: #FF3399;
 }
 h5{
     font-family: 'Lobster', cursive;
-    color: #00FFFF;
+    color: #FF3399;
 }
 h6{
     font-family: 'Lobster', cursive;
-    color: #00FFFF;
+    color: #FF3399;
 }
-label {
-    font-family: 'Lobster', cursive;
-    color: #00FFFF;
+.text {
+    color: #FF70B8;
 }
 
 .pure-img-responsive {
@@ -121,11 +120,14 @@ a.pure-button-primary {
     z-index: 4;
 }
 
-.home-menu .pure-menu-heading {
+.pure-menu-heading {
     font-family: 'Lobster', cursive;
     color: #00FFFF;
     font-weight: 400;
     font-size: 120%;
+    text-align: center;
+    border: 3px #00FFFF;
+    border-radius: 5px;
 }
 
 .home-menu .pure-menu-selected a {
@@ -174,7 +176,7 @@ a.pure-button-primary {
 
 /* This is the main heading that appears on the blue section */
 .splash-head {
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bold;
     color: black;
     padding: 1em 1.6em;
@@ -223,13 +225,6 @@ a.pure-button-primary {
     .content-subhead i {
         margin-right: 7px;
     }
-
-/* This is the class used for the dark-background areas. */
-.ribbon {
-    font-family: Arial;
-    background: black;
-    color: #00FFFF;
-}
 
 /* This is the class used for the footer */
 .footer {
