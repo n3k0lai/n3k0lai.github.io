@@ -108,7 +108,6 @@ a.pure-button-primary {
     text-align: center;
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
     background: black;
-    color: black;
 }
 .home-menu.pure-menu-open {
     background: black;
@@ -120,14 +119,25 @@ a.pure-button-primary {
     z-index: 4;
 }
 
-.pure-menu-heading {
+.ez-button {
     font-family: 'Lobster', cursive;
     color: #00FFFF;
     font-weight: 400;
     font-size: 120%;
     text-align: center;
+    background: black;
     border: 3px #00FFFF;
     border-radius: 5px;
+}
+
+.fa-twitter,
+.fa-github,
+.fa .fa-circle .fa-stack-2x {
+    color: #00FFFF;
+}
+
+.about-me-text {
+    color: black;
 }
 
 .home-menu .pure-menu-selected a {
