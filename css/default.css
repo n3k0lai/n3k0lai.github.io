@@ -28,6 +28,10 @@ body {
 .about-me-text {
     color: #222222;
 }
+
+#content {
+    padding: 1em;
+}
 .parallax-background {
 	background-color: #00FFFF;
 	height: 620px;
@@ -51,8 +55,11 @@ body {
 	max-width: 100%;
 	position: relative;
 	top: 500px;
-	padding: 50px;
 	font-size: 20px;
 	background-color: #00FFFF;
+    padding-top: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
 }              
 
