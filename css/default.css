@@ -36,8 +36,13 @@ h5, p {
 
 #adjust-padding {
     padding: 1em;
-    margin: 0;
+    margin-left: 0px;
     margin-bottom: 1em;
+}
+
+#remove-padding {
+    padding: 0px;
+    margin: 0px;
 }
 
 .parallax-background {
