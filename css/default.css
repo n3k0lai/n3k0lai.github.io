@@ -19,6 +19,11 @@ h5, p {
     color: #00FFFF;
 }
 
+#connect {
+    font-family: "Ubuntu";
+    color: #00FFFF;
+}
+
 .fa-github,
 .fa-twitter,
 .fa-circle,
@@ -35,7 +40,7 @@ h5, p {
 }
 
 #adjust-padding {
-    padding: 1em;
+    padding: 0.2em;
     margin-left: 0px;
     margin-bottom: 1em;
 }
@@ -45,6 +50,9 @@ h5, p {
     margin: 0px;
 }
 
+#adjust-height {
+    margin-top: 0.5em;
+}
 .parallax-background {
 	background-color: #00FFFF;
 	height: 620px;
