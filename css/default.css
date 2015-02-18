@@ -4,34 +4,42 @@ body {
 	font-size: 20px;
 }
 
+h1, h2, h3, h4 {
+    font-family: "Lobster";
+    color: #222222;
+}
+
+h5, p {
+    font-family: "Ubuntu";
+}
+
+
 #name {
     font-family: "Lobster";
     color: #00FFFF;
 }
 
-#top {
-    font-family: "Lobster";
-    color: #222222;
-}
-
-#little-top {
-    font-family: "Lobster";
-    color: #222222;   
-}
-
 .fa-github,
 .fa-twitter,
-.fa-circle {
+.fa-circle,
+.fa-code{
     color: #00FFFF;
+    vertical-align: middle;
 }
 
+.fa-square {
+    color: #222222;   
+}
 .about-me-text {
     color: #222222;
 }
 
-#content {
+#adjust-padding {
     padding: 1em;
+    margin: 0;
+    margin-bottom: 1em;
 }
+
 .parallax-background {
 	background-color: #00FFFF;
 	height: 620px;
