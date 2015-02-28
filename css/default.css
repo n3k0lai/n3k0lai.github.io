@@ -4,12 +4,12 @@ body {
 	font-size: 20px;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
     font-family: "Lobster";
     color: #222222;
 }
 
-h5, p {
+h5, h4, p, li {
     font-family: "Ubuntu";
 }
 
@@ -35,24 +35,11 @@ h5, p {
 .fa-square {
     color: #222222;   
 }
+
 .about-me-text {
     color: #222222;
 }
 
-#adjust-padding {
-    padding: 0.2em;
-    margin-left: 0px;
-    margin-bottom: 1em;
-}
-
-#remove-padding {
-    padding: 0px;
-    margin: 0px;
-}
-
-#adjust-height {
-    margin-top: 0.5em;
-}
 .parallax-background {
 	background-color: #00FFFF;
 	height: 620px;
