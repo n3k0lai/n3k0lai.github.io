@@ -26,19 +26,15 @@ h5, h4, p, li {
 
 .fa-github,
 .fa-twitter,
-.fa-circle,
 .fa-code{
     color: #00FFFF;
     vertical-align: middle;
 }
 
 .fa-square {
-    color: #222222;   
-}
-
-.about-me-text {
     color: #222222;
 }
+
 
 .parallax-background {
 	background-color: #00FFFF;
@@ -69,5 +65,5 @@ h5, h4, p, li {
     padding-left: 1em;
     padding-right: 1em;
     padding-bottom: 1em;
-}              
+}
 
