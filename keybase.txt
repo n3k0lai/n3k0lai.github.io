@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/me0wmix
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://nichol.ai
+  * I am me0wmix (https://keybase.io/me0wmix) on keybase.
+  * I have a public key with fingerprint 8934 8F23 6A40 68F7 9E1D  58F4 3C77 E3BA 1E97 2ED1
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101b8b3391d91b81c2e5ff4a398930601fd5bc0a58b31756e7b2029520bc6623a210a",
+            "fingerprint": "89348f236a4068f79e1d58f43c77e3ba1e972ed1",
+            "host": "keybase.io",
+            "key_id": "3c77e3ba1e972ed1",
+            "kid": "0101b8b3391d91b81c2e5ff4a398930601fd5bc0a58b31756e7b2029520bc6623a210a",
+            "uid": "0633565304a2589b0a3d8dbc7be6ac19",
+            "username": "me0wmix"
+        },
+        "service": {
+            "hostname": "nichol.ai",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1445726154,
+    "expire_in": 157680000,
+    "prev": "6c242e42899834ad70f4372091df50147cd81d5eac02236a9113a8bb0668a96c",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.47
+Comment: https://keybase.io/crypto
+
+yMImAnicrVJbSFRBGN7NypTCnoqghzoG+7LFzJlzXUkj7EKxERVBYW0z58zZPajn
+rGePq8smFaWVXTakjIrukURI+JCFFVRa2UWIpQQrHywkjSC7mWBQc7q89di8zMzP
+933z/d8/XdNyfPn+tryeq6tbbif8j+80VfvWB3MfpTli6ykulObK6a+NVug04UbK
+TZ0LcQACSBSCkAp1lZ2gxlPRMASMVEVFQALQ0EWiASwyEJRFicqEB7wq8oBoksQj
+zEOAuSBnmFaUOnHHtFwmy7iCYvBIwgKQFENWKdRFxRCQJssUEQypKvNUh4wYsxMe
+g5kjOEEXmDarsUvkl71/4P+z7+rfchJCoiQiIGBeVFQCMNIVnWgyoRLWoOoBE9Sx
+cCVl6EoKairNWq4uyLFi0tSol6vXyB+AZWoxu2IBNhkv7tiurdkVrBxz3XjIY7mp
+uAeroSTyRyBCTEtnETJCkjoJ07a4EGRIzTU9RSgIosxLUBSCHK2Nmw6NmB5ClCUF
+sOU9Q5NMUtJ4gacCr6iqggSsy4CFLvOAxWSIAAqypitsFBRrgPfGo0KIsEIIkCQF
+q5LGeS1VWTYXkplNHGWSCTNqYbfaoVzd3dtlE33+fN/kSRO8r+XLz5v+98NtX5H7
+ferWE+l+WmDV49NNI8dnnuvrNZeeffU2ln6aaT+8rWE63dAx/0Fh8Znml1rTlr7N
+B9D53tRwQzY5nm05VTx2sGTjkUdr62cLjb27Bo+OdmZyhsoedmc7Wi+lJ1z/cnVR
+Y9uVkSloDSps3bN4ZKLysXm/ch6Tcy3ZHcHsquHQqX2X/aP+3GehnZ+WjV/rSTpE
+nzfWtfLmloHA++62goWlT9rL78cCVW2D4aKvu4tK0p23oit+2B/2LTu5tnEgvKm+
+M3Xo+as34cy38LHlM1ZHvw/dbL649/WLz4fqWufcOJu5N9p/p2fVl+4lgYK5iVKx
+zJTH1s26+M6IXdgROND1MGtPi/8EE0dHzA==
+=XlPR
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/me0wmix
+
+==================================================================
