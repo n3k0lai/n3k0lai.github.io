@@ -1,0 +1,68 @@
+.header-cont {
+  text-align:center;
+}
+.main-cont {
+  margin:0 20px;
+}
+.main-header {
+  font-weight:900;
+  line-height:17px;
+  height:18px;
+  margin-bottom:3px;
+  padding-left:2px;
+  color:#fff;
+}
+.main-header .item {
+  display:inline-block;
+  vertical-align:text-bottom;
+}
+.main-header .ctrl {
+  float:right;
+}
+.main-header .ctrl .btn {
+  display:inline-block;
+  width:16px;
+  height:14px;
+  margin-top:2px;
+  margin-right:-5px;
+}
+.main-header .ctrl .btn-primary .icn {
+    width:15px;
+    height:10px;
+    margin:0;
+    padding:0;
+}
+.main-header .ctrl .btn:last-child {
+    margin-right:2px;
+    margin-left:3px;
+}
+.icn.icn-min {
+  background-image:url(../img/minimize.png);
+}
+.icn.icn-resize {
+  background-image:url(../img/resize.png);
+}
+.icn.icn-close {
+  background-image:url(../img/close.png);
+}
+.icn.icn-chat {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAMAAABhq6zVAAAADFBMV…CEAyCbGQ4YgRwmKAByKJWB2gNkAe2BAEagKBwARREAygYAVeYA6ZrzXbEAAAAASUVORK5CYII=);
+}
+.icn.icn-library {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAALCAMAAACTbPdTAAAADFBMV…EJACAMQ8E+3X9nYyEa6P1dCVLGFjLq5TWKp7eMsexYtPcdPkwA1bbIcR4AAAAASUVORK5CYII=);
+}
+.icn.icn-search {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAMAAABFNRROAAAADFBMV…Bt9/9/tmBEQcHc5pRKSkVSp2W17fAEfEq3oMA+wHmH9GMNSSMAqzBpFZAAAAAASUVORK5CYII=);
+}
+.icn.icn-hotlist {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAANCAMAAACq939wAAAAGFBMV…3/j0sighfntqyhmCCJpTjpjsA4oerD6iN1JBlNcdfztjN8sA8CTnN6g7IAAAAASUVORK5CYII=);
+}
+.icn.icn-transfer {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAMAAACuAq9NAAAACVBMV…CJ4DIxQhkQwATlAxlQwIjGxVTMiEYxQaUJmIOuGGEGVtcCADkhAJW171aeAAAAAElFTkSuQmCC);
+}
+.icn.icn-discover {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAALCAMAAAB8rpxtAAAADFBMV…ImJiYgieAw4eCA+AgOQgWMw8TMCOIis5lgitA5cP0INgAaewBvDkXzgwAAAABJRU5ErkJggg==);
+}
+.icn.icn-help {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAMAAABhq6zVAAAAElBMV…ecXHBOTNyaonFJKiMzUcNTGp70LVowVAH+YP8hzIstwGY8f0kBWJZg1MYAAAAASUVORK5CYII=);
+}
