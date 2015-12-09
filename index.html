@@ -29,7 +29,7 @@
         <span class="item icn px16 icn-logo"></span>
         <span class="item">Portfolio.exe</span>
         <div class="ctrl">
-    			<span class="btn btn-primary bg-yuck"><span class="icn icn-min"></span></span>
+    			<span id="min" class="btn btn-primary bg-yuck"><span class="icn icn-min"></span></span>
     			<span class="btn btn-primary bg-yuck"><span class="icn icn-resize"></span></span>
     			<span class="btn btn-primary bg-yuck"><span class="icn icn-close"></span></span>
     		</div>
@@ -225,6 +225,11 @@
           $('.why-cont').show();
         }
       });
+      $('#min').click(function(){
+        $('.main-cont').toggleClass('minimized');
+        $('.main-body').toggle();
+        $('.main-nav').toggle();
+      })
     </script>
   </body>
 </html>
