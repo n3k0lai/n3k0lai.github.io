@@ -7,6 +7,9 @@
 
     <link rel="shortcut icon" href="img/N.ico" type="image/x-icon" />
 
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
     <!-- Custom styles for this template -->
     <link href="css/default.css" rel="stylesheet">
 
@@ -19,6 +22,7 @@
   <body class="bg-winlime">
     <div class="header-cont">
       <h1>Nicholai Goodall</h1>
+      <h2>Web Developer</h2>
     </div>
     <div class="main-cont border-window bg-yuck">
       <div class="main-header bg-wincf">
@@ -58,7 +62,7 @@
         <div class="main-body">
           <div class="who-cont">
             <!-- who I am -->
-            <div class="main-header">Who I am</div>
+            <div class="main-cont-header">Who I am</div>
             <p>
               I am a front-end developer who loves social networking and finding
               trends in big data. I am a big fan of web devolpment and startup
@@ -68,7 +72,7 @@
           </div>
           <div class="what-cont">
             <!-- What I do -->
-            <div class="main-header">What I do</div>
+            <div class="main-cont-header">What I do</div>
             <p>
               I work with web technologies, and I love it. I work a lot with
               Javascript, HTML, and CSS. Here are some of my favorite libraries
@@ -89,7 +93,7 @@
           </div>
           <div class="when-cont">
             <!-- When I got my skill -->
-            <div class="main-header">When I got my skills</div>
+            <div class="main-cont-header">When I got my skills</div>
             <div class="main-sub-cont">
               <div class="main-sub-header">
                 Zoomph - June 2015 to Present
@@ -123,12 +127,14 @@
           </div>
           <div class="where-cont">
             <!-- Where I can be reached -->
-            <div class="main-header">Where I can be reached</div>
+            <div class="main-cont-header">Where I can be reached</div>
+            <div class="main-sub-cont">
 
+            </div>
           </div>
           <div class="why-cont">
             <!-- why I do what -->
-            <div class="main-header">Why I do what I do</div>
+            <div class="main-cont-header">Why I do what I do</div>
             <div class="main-sub-cont">
               <div class="main-sub-header">
                 Startup and Web Dev Culture
@@ -162,6 +168,47 @@
         </div>
       </div>
     </div>
-    <script src="scripts/script.js"></script>
+    <script>
+      $('#who').click(function(){
+        if(!$('#who').hasClass('selected')) {
+          $('#who').parent().find('.btn').removeClass("selected");
+          $('.main-body').children().hide();
+          $('#who').addClass("selected");
+          $('.who-cont').show();
+        }
+      });
+      $('#what').click(function(){
+        if(!$('#what').hasClass('selected')) {
+          $('#what').parent().find('.btn').removeClass("selected");
+          $('.main-body').children().hide();
+          $('#what').addClass("selected");
+          $('.what-cont').show();
+        }
+      });
+      $('#when').click(function(){
+        if(!$('#when').hasClass('selected')) {
+          $('#when').parent().find('.btn').removeClass("selected");
+          $('.main-body').children().hide();
+          $('#when').addClass("selected");
+          $('.when-cont').show();
+        }
+      });
+      $('#where').click(function(){
+        if(!$('#where').hasClass('selected')) {
+          $('#where').parent().find('.btn').removeClass("selected");
+          $('.main-body').children().hide();
+          $('#where').addClass("selected");
+          $('.where-cont').show();
+        }
+      });
+      $('#why').click(function(){
+        if(!$('#why').hasClass('selected')) {
+          $('#why').parent().find('.btn').removeClass("selected");
+          $('.main-body').children().hide();
+          $('#why').addClass("selected");
+          $('.why-cont').show();
+        }
+      });
+    </script>
   </body>
 </html>
