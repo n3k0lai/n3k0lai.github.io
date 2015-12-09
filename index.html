@@ -60,6 +60,8 @@
   						</span>
   					</div>
         </div>
+      </div>
+      <div class="border-inset extend">
         <div class="main-body">
           <div class="who-cont">
             <!-- who I am -->
@@ -186,6 +188,18 @@
       </div>
     </div>
     <script>
+      // on load event
+      var modalText = [
+        {title:'hey',descr:'Want to be friends?'},
+        {title:'hey',descr:'U up?'},
+        {title:'hi',descr:"I'm Nicholai"},
+        {title:'Want to talk about Javascript?',descr:'I swear it is fun'},
+        {title:'You should follow me on twitter',descr:'I promise I am entertaining'},
+        {title:'hey',descr:'Want to be friends?'},
+        {title:'My name is Nicholai',descr:'And I love javascript'},
+      ]
+      
+      // click events for buttons
       $('#who').click(function(){
         if(!$('#who').hasClass('selected')) {
           $('#who').parent().find('.btn').removeClass("selected");

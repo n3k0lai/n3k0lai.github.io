@@ -83,6 +83,9 @@
 i {
   color:black;
 }
+.extend {
+  height:100%;
+}
 .minimize {
     position: absolute !important;
     margin: 0 !important;
@@ -100,4 +103,8 @@ i {
   display:none;
   padding:0.5em;
   margin:1em;
+}
+.popup-modal {
+  height:25%;
+  width:25%;
 }
