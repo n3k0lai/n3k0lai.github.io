@@ -30,8 +30,8 @@
         <span class="item">Portfolio.exe</span>
         <div class="ctrl">
     			<span id="min" class="btn btn-primary bg-yuck"><span class="icn icn-min"></span></span>
-    			<span class="btn btn-primary bg-yuck"><span class="icn icn-resize"></span></span>
-    			<span class="btn btn-primary bg-yuck"><span class="icn icn-close"></span></span>
+    			<span id="max" class="btn btn-primary bg-yuck"><span class="icn icn-resize"></span></span>
+    			<span id="close" class="btn btn-primary bg-yuck"><span class="icn icn-close"></span></span>
     		</div>
       </div>
       <div class="border-inset">
@@ -229,6 +229,9 @@
         $('.main-cont').toggleClass('minimized');
         $('.main-body').toggle();
         $('.main-nav').toggle();
+      })
+      $('#max').click(function(){
+        $('.main-cont').toggleClass('maximized')
       })
     </script>
   </body>
