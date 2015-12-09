@@ -83,7 +83,7 @@
 i {
   color:black;
 }
-.minimized {
+.minimize {
     position: absolute !important;
     margin: 0 !important;
     width: 100% !important;
