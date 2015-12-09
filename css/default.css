@@ -98,4 +98,6 @@ i {
 }
 #revert {
   display:none;
+  padding:0.5em;
+  margin:1em;
 }
