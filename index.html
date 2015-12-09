@@ -227,12 +227,20 @@
         }
       });
       $('#min').click(function(){
+        if($('.main-cont').hasClass('maximize')) {
+          $('.main-cont').toggleClass('maximize');
+        }
         $('.main-cont').toggleClass('minimized');
         $('.main-body').toggle();
         $('.main-nav').toggle();
       })
       $('#max').click(function(){
-        $('.main-cont').toggleClass('maximize')
+        if($('.main-cont').hasClass('minimize')) {
+          $('.main-cont').toggleClass('minimize');
+          $('.main-body').toggle();
+          $('.main-nav').toggle();
+        }
+        $('.main-cont').toggleClass('maximize');
       })
       $('#close').click(function(){
         $('.main-cont').toggle();
