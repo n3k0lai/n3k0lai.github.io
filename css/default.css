@@ -66,6 +66,9 @@
 .icn.icn-help {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAMAAABhq6zVAAAAElBMV…ecXHBOTNyaonFJKiMzUcNTGp70LVowVAH+YP8hzIstwGY8f0kBWJZg1MYAAAAASUVORK5CYII=);
 }
+.main-body {
+  padding:0 1em;
+}
 .what-cont,
 .when-cont,
 .where-cont,
