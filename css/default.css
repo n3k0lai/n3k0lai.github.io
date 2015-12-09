@@ -72,3 +72,11 @@
 .why-cont {
   display:none;
 }
+.networks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+i {
+  color:black;
+}
