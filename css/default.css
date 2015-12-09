@@ -83,6 +83,9 @@
 i {
   color:black;
 }
+.nav-border {
+  height:24px;
+}
 .extend {
   height:100%;
 }
