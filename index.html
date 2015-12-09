@@ -247,6 +247,14 @@
         $('#revert').toggle();
       })
       $('#revert').click(function(){
+        if($('.main-cont').hasClass('minimize')) {
+          $('.main-cont').toggleClass('minimize');
+          $('.main-body').toggle();
+          $('.main-nav').toggle();
+        }
+        if($('.main-cont').hasClass('maximize')) {
+          $('.main-cont').toggleClass('maximize');
+        }
         $('.main-cont').toggle();
         $('#revert').toggle();
       })
