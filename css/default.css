@@ -1,6 +1,14 @@
 .header-cont {
   text-align:center;
 }
+.header-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('../img/nicholaiWin32.png');
+  height:200px;
+  margin:20px;
+}
 .main-cont {
   margin:0 20px;
 }
