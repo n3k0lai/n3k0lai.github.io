@@ -1,0 +1,12 @@
+html {
+  background-color:#000;
+}
+.hero {
+  background-color:transparent;
+}
+.section {
+  background-color:rgba(0,0,0,0.5);
+}
+section {
+  color:#fff;
+}
