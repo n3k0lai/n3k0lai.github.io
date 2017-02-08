@@ -7,6 +7,6 @@ html {
 .section {
   background-color:rgba(0,0,0,0.5);
 }
-section {
+section, .title, .subtitle {
   color:#fff;
 }
