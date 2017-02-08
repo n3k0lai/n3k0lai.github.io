@@ -2,7 +2,7 @@ html {
   background-color:#000;
 }
 section {
-  background-color:transparent;
+  background-color:transparent !important;
 }
 .container {
   border: 2px solid white;
