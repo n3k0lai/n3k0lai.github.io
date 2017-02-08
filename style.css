@@ -4,9 +4,10 @@ html {
 .hero {
   background-color:transparent;
 }
-.section {
+.container {
+  border: 2px solid white;
   background-color:rgba(0,0,0,0.5);
 }
-section, .title, .subtitle {
+.title, .subtitle {
   color:#fff;
 }
