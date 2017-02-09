@@ -2,6 +2,11 @@ html {
   background-color:#000;
 }
 .section,
-.section>.container {
+.section>.container,
+.hero {
   background-color:transparent !important;
+}
+
+.white {
+  color:white;
 }
