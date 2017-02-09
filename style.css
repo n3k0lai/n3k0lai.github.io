@@ -1,22 +1,7 @@
-/*html {
+html {
   background-color:#000;
 }
 .section,
-.footer {
+.section>.container {
   background-color:transparent !important;
 }
-.section {
-  padding: 0 3em;
-}
-.footer {
-  padding-top: 0;
-}
-.container {
-  padding: 3em 0;
-  border-left: 2px solid white;
-  border-right: 2px solid white;
-  background-color:rgba(0,0,0,0.5);
-}
-.title, .subtitle {
-  color:#fff;
-}*/
