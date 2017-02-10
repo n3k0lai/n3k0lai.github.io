@@ -22,7 +22,7 @@ canvas{
 }
 #particles-js{
   z-index:2;
-  position:absolute; 
+  position:fixed; 
   width: 100%; 
   height: 100%; 
   background-color: #000; 
@@ -30,4 +30,10 @@ canvas{
   background-repeat: no-repeat; 
   background-size: cover; 
   background-position: 50% 50%; 
+}
+.hero-icon {
+  width:400px;
+  height:400px;
+  margin:0 auto 20px auto;
+  border:1px solid white;
 }
