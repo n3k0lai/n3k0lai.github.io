@@ -3,7 +3,7 @@ html {
 }
 .section,
 .section>.container,
-.hero {
+.hero .container {
   z-index:3;
   background-color:transparent !important;
 }
