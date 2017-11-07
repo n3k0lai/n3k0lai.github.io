@@ -1,0 +1,48 @@
+{
+  "name": "catlover91.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": [
+      "src/plugins-dev",
+      "archive"
+    ]
+  },
+  "scripts": {
+    "lint": "standard --verbose src/*.js | snazzy",
+    "watch": "webpack-dev-server --hot --inline",
+    "build": "webpack",
+    "start": "node ./build/main.bundle.js"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-loader": "^7.1.2",
+    "eslint": "^4.10.0",
+    "eslint-plugin-react": "^7.4.0",
+    "file-loader": "^1.1.5",
+    "node-sass": "^4.5.3",
+    "react-hot-loader": "^3.1.1",
+    "react-markdown-loader": "^1.1.14",
+    "sass-loader": "^6.0.6",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.3",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-dev-server": "^2.9.4",
+    "webpack-hot-middleware": "^2.20.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",
+    "redux": "^3.7.2"
+  }
+}
