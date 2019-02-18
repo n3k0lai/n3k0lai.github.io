@@ -1,0 +1,64 @@
+
+.row {
+    width:100%;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+  }
+  
+  .footer {
+    width:100%;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: rgba(255,255,255,0.2);
+  }
+  .neocities {
+    height:50px;
+    width:50px;
+    margin-right:20px;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    background-image:url('./images/cat.png');
+  }
+  
+  .lilpump {
+    background-image: url('./images/lilpump.png');
+  }
+  .block {
+    width: 100%;
+    padding: 10px;
+  }
+  .block-img {
+    width: 50%;
+    padding-bottom:50%;
+    margin: 0 10px 10px;
+    border-radius: 3px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .reanna {
+    background-image: url('./images/reanna.png');
+  }
+  
+  .yosh {
+    background-image: url('./images/yosh.jpeg');
+  }
+  
+  .shougo {
+    background-image: url('./images/shougo.png');
+  }
+  
+  .leafo {
+    background-image: url('./images/leafo.png');
+  }

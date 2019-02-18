@@ -1,0 +1,9 @@
+.img {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .img.smol {
+    width: 100px;
+    height: 100px;
+  }
