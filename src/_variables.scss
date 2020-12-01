@@ -1,0 +1,15 @@
+$dark-mode: true;
+$black: #120D08;
+$white: white;
+$accent-color: #a1e6f7;
+
+$bg-color: if($dark-mode, $black, $white);
+$text-color: if($dark-mode, $white, $black);
+$border-color: if($dark-mode, $white, $black);
+
+$mobile: 968px;
+$padding: 20px;
+$border-width: 2px;
+$border-radius: 5px;
+$transition-time: 350ms;
+$transition: $transition-time ease all;

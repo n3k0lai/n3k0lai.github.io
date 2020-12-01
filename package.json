@@ -1,28 +1,25 @@
 {
-  "name": "catlover91.github.io",
+  "name": "itsnicholai.fyi",
+  "description": "my portfolio website",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "standard": {
-    "parser": "babel-eslint",
-    "ignore": [
-      "archive"
-    ]
-  },
+  "author": "",
+  "license": "",
+  "private": true,
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "lint": "standard --verbose src/*.js | snazzy",
-    "start": "node ./build/main.bundle.js"
+    "dev": "vite",
+    "build": "vite build"
   },
+  "dependencies": {
+    "vue": "^3.0.0-beta.10"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
   "devDependencies": {
-    "@vuepress/plugin-blog": "^1.0.0-alpha.0",
-    "babel": "^6.23.0",
-    "babel-core": "^6.26.0",
-    "babel-eslint": "^8.0.1",
-    "eslint": "^4.10.0",
-    "snazzy": "^7.0.0",
-    "standard": "^10.0.3",
-    "vuepress": "^1.0.0-alpha.39"
+    "@vue/compiler-sfc": "^3.0.0-beta.10",
+    "sass": "^1.26.5",
+    "vite": "^0.15.0"
   }
 }
