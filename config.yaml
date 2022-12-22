@@ -1,0 +1,8 @@
+baseURL: https://n3k0lai.github.io
+languageCode: en-us
+title: my personal site
+
+params:
+  copyrighthtml: Copyright &#xA9; 2023 Nicholai Goodall. All Rights Reserved.
+  twitteruser: n3k0lai
+  twitchuser: n3k0lai

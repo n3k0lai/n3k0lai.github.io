@@ -14,20 +14,20 @@
   </div>
 </template>
 <script>
-  import splash from './components/Splash.vue'
-  import skills from './components/Skills.vue'
-  import contact from './components/Contact.vue'
-  import archive from './components/Archive.vue'
+import splash from './components/Splash.vue'
+import skills from './components/Skills.vue'
+import contact from './components/Contact.vue'
+import archive from './components/Archive.vue'
 
-  export default {
-    name: 'App',
-    components: {
-      splash,
-      skills,
-      contact,
-      archive
-    }
+export default {
+  name: 'App',
+  components: {
+    splash,
+    skills,
+    contact,
+    archive
   }
+}
 </script>
 <style lang="scss">
   @import "./_mixins";

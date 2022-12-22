@@ -10,7 +10,7 @@
     "build": "vite build"
   },
   "dependencies": {
-    "vue": "^3.0.0-beta.10"
+    "vue": "^3.2.36"
   },
   "browserslist": [
     "> 1%",
@@ -18,8 +18,10 @@
     "not ie <= 8"
   ],
   "devDependencies": {
-    "@vue/compiler-sfc": "^3.0.0-beta.10",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/compiler-sfc": "^3.2.45",
+    "node-sass": "^8.0.0",
     "sass": "^1.26.5",
-    "vite": "^0.15.0"
+    "vite": "^4.0.3"
   }
 }
