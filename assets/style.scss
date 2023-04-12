@@ -1,9 +1,81 @@
-body {
+
+
+html,body {
 	font-family: sans-serif ;
 	background: #110000 ;
 	color: #ccc ;
+	padding: 0;
+	margin: 0;
 }
 
+.waves {
+	background-image: url(https://media.giphy.com/media/5PR1nljUyDPP0TalIX/giphy.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center left;
+}
+.cat {
+	background-image: url(/cat.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.splash {
+	width:100%;
+	height:100vh;
+	position:relative;
+	overflow: hidden;
+    transition: 350ms ease;
+	/*padding-top: 0;
+	.cat {
+		width:100%;
+		height:0;
+		padding-bottom:100%;
+		position:absolute;
+		bottom: 0;
+		//transition: 350ms ease;
+	}
+
+	&-text {
+		position: absolute;
+		width: 100%;
+		//width: 50%;
+		height: 50%;
+		//height: 100%;
+		top: 0;
+		right: 0;
+		transition: 350ms ease;
+		visibility: visible;
+		opacity: 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 4rem;
+		color: #fff4e3;
+	}
+	@media (min-width: 600px) {
+		.splash-text {
+			width:50%;
+			height: 100%;
+		}
+		.cat {
+			width:50%;
+		}
+	}
+	&.bar {
+		height:100px;
+		padding-top: calc(100vh - 100px);
+		.cat {
+			width:150px;
+			height: 100px;
+			background-position: center top;
+		}
+		.splash-text {
+			opacity: 0;
+			visibility: hidden;
+		}
+	}*/
+}
 main {
 	max-width: 800px ;
 	margin: auto ;
