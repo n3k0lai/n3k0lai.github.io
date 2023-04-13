@@ -7,6 +7,8 @@ If you think I am cool, you should totally [follow me on twitter](https://twitte
 The Project
 ------------
 
-### ← /static/archive/
+dev: `hugo server`
+
+ `/static/archive/`
 
 all of the previous years worth of portfolio websites

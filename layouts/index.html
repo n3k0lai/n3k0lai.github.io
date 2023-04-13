@@ -1,49 +1,8 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.Language }}">
-<head>
-	<title>{{ if not .IsHome }}{{ .Title | title }} | {{ end }}{{ .Site.Title }}</title>
-	<link rel="canonical" href="{{ .Site.BaseURL }}">
-	<link rel='alternate' type='application/rss+xml' title="{{ .Site.Title }} RSS" href='/index.xml'>
-	{{ $sass := resources.Get "style.scss" }}
-    {{ $style := $sass | resources.ToCSS | resources.Fingerprint }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
-	{{ with .Site.Params.favicon }}<link rel="icon" href="{{ . }}">
-	{{ end -}}
-	<meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}">
-	{{ if isset .Params "tags" }}<meta name="keywords" content="{{ with .Params.tags }}{{ delimit . ", " }}{{ end }}">
-	{{ end -}}
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="robots" content="index, follow">
-	<meta charset="utf-8">
 
-    <meta name="google-site-verification" content="Pkoe2RIzq5DoQpDLwDzySdp6zkTrGGQnfIz9ug27HkY" />
-	<script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
-{{ if .Site.Menus.main }}{{ partial "nav.html" . }}{{ end -}}
-<main>
-	<div id="splash" class="splash waves flex flex-col md:flex-row-reverse md:justify-end md:items-end items-stretch justify-stretch">
-		
-		<div class="grow self-centerj text-center align-middle text-6xl">
-			n3k0lai
-		</div>
-		<div class="cat grow aspect-square"></div>
-	</div>
-	<!--<script>
-		window.addEventListener('scroll', function() {
-			const div = document.getElementById('splash');
-			const scrolltop = window.pageYOffset|| document.documentElement.scrolltop;
-			const thresh = 0;
-			if (scrolltop > thresh) {
-				div.classList.add('bar');
-			} else {
-				div.classList.remove('bar');
-			}
-		})
-	</script>-->
-	<header><h1 id="tag_{{ .Title }}">{{ block "title" . }}{{ end }}</h1></header>
+{{ define "main" }}
 	under construction
 	<br/>
+	{{ .Content }}
 	<h2>Archive:</h2>
 	<div>
 		<a href="/archive/2015">2015</a>
@@ -52,13 +11,4 @@
 		<a href="/archive/2018">2019</a>
 		<a href="/archive/2020">2020</a>
 	</div>
-</main>
-{{ block "footer" . }}
-<footer>
-	<a href="github.com/n3k0lai/n3k0lai.github.io">github</a> - 
-	<a href="{{ .Site.BaseURL }}">{{ .Site.BaseURL }}</a>
-	{{- if .Param "showrss" }}<br><br><a href="/index.xml"><img src="/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates."></a>{{ end }}
-</footer>
 {{ end }}
-</body>
-</html>

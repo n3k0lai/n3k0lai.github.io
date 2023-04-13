@@ -1,0 +1,5 @@
+<footer class="container mx-auto text-center">
+	<a href="github.com/n3k0lai/n3k0lai.github.io">github</a> - 
+	<a href="{{ .Site.BaseURL }}">{{ .Site.BaseURL }}</a>
+	{{- if .Param "showrss" }}<br><br><a href="/index.xml"><img src="/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates."></a>{{ end }}
+</footer>
