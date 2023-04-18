@@ -30,4 +30,5 @@ html,body {
 	position:relative;
 	overflow: hidden;
     transition: 350ms ease;
+	font-family: 'brushking' sans-serif;
 }
