@@ -1,19 +1,10 @@
-# Generated files by hugo
-/public/
-#/resources/_gen/
-/resources/
-/assets/jsconfig.json
-hugo_stats.json
-
-# Executable may be added to repository
-hugo.exe
-hugo.darwin
-hugo.linux
-
-# Temporary lock file while building
-/.hugo_build.lock
-
+.DS_Store
 node_modules
-dist
-
-static/**/svelte.*
+/build
+/.svelte-kit
+/package
+.env
+.env.*
+!.env.example
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*

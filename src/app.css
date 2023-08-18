@@ -19,7 +19,7 @@ html,body {
 	background-position: center left;
 }
 .cat {
-	background-image: url(/cat.png);
+	background-image: url(/assets/cat.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
