@@ -1,11 +1,14 @@
-import axios, { AxiosInstance, AxiosResponse, AxiosError } from 'axios';
+import type { User } from './user.d.ts';
+import type { Emote } from "./emote.d.ts";
+import type { EmoteSet } from "./emoteSet.d.ts";
+import axios from 'axios';
+import type { AxiosInstance, AxiosResponse, AxiosError } from 'axios';
 
-interface SevenTvApiResponse<T = any> {
+type SevenTvApiClientResponse<T> = {
   success: boolean;
-  data?: T;
   error?: string;
+  data?: T;
 }
-
 class SevenTvApiClient {
   private apiKey: string;
   private baseURL: string;
@@ -22,63 +25,49 @@ class SevenTvApiClient {
     });
   }
 
-  async getResource<T = any>(endpoint: string): Promise<SevenTvApiResponse<T>> {
+  async getUser<User>(userId: string): Promise<SevenTvApiClientResponse<User>> {
     try {
-      const response: AxiosResponse<SevenTvApiResponse<T>> = await this.httpClient.get(endpoint);
-      return response.data;
+      let url = `${this.baseURL}/users/${userId}`;
+      const response: AxiosResponse<User> = await this.httpClient.get(url);
+      return {
+        success: true,
+        data: response.data,
+      };
     } catch (error) {
       return this.handleError(error);
     }
   }
-
-  async getUser<user = any>(userId: string): Promise<SevenTvApiResponse<T>> {
+  async getEmote<Emote>(emoteId: string): Promise<SevenTvApiClientResponse<Emote>> {
     try {
-        let url = `${this.baseURL}/users/${userId}`;
-      const response = await fetch(url, {
-        method: 'GET',
-        headers: {
-          Authorization: `Bearer ${this.apiKey}`,
-        },
-      });
+      let url = `${this.baseURL}/emotes/${emoteId}`;
+      const response: AxiosResponse<Emote> = await this.httpClient.get(url);
+      return {
+        success: true,
+        data: response.data,
+      };
+    }
+    catch (error) {
+      return this.handleError(error);
+    }
+  }
 
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
-
-      const responseData = await response.json();
-      return responseData;
+  async getEmoteSet<EmoteSet>(emoteId: string): Promise<SevenTvApiClientResponse<EmoteSet>> {
+    try {
+      let url = `${this.baseURL}/emote-sets/${emoteId}`;
+      const response: AxiosResponse<EmoteSet> = await this.httpClient.get(url);
+      return {
+        success: true,
+        data: response.data,
+      };
     } catch (error) {
       return this.handleError(error);
     }
   }
-  
-  async getEmoteSet<emoteSet = any>(emoteId: string): Promise<SevenTvApiResponse<T>> {
-    try {
-        let url = `${this.baseURL}/emote-sets/${emoteId}`;
-      const response: AxiosResponse<SevenTvApiResponse<user>> = await this.httpClient.get(endpoint);
-      return response.data;
-      /*const response = await fetch(url, {
-        method: 'GET',
-        headers: {
-          Authorization: `Bearer ${this.apiKey}`,
-        },
-      });
-
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
-
-      const responseData = await response.json();
-      return responseData;*/
-    } catch (error) {
-      return this.handleError(error);
-    }
-  }
-  private handleError(error: AxiosError): SevenTvApiResponse {
+  private handleError(error: any) {
     if (error.response) {
       return {
         success: false,
-        error: error.response.data.error,
+        error: error.response.data,
       };
     } else {
       return {
