@@ -37,6 +37,7 @@ class SevenTvApiClient {
       return this.handleError(error);
     }
   }
+  
   async getEmote<Emote>(emoteId: string): Promise<SevenTvApiClientResponse<Emote>> {
     try {
       let url = `${this.baseURL}/emotes/${emoteId}`;
