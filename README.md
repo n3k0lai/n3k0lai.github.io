@@ -2,7 +2,7 @@
   <img src="./static/assets/pfp.gif" width="350"/>
 </p>
 <h1 align="center">My personal website and blog</h1>
-<p align="center" style="display: flex;justify-content: center;align-items: center;">written in svelte <img src="./static/assets/4WeirdBuff.png" width="20" style="margin-left: 5px;" /></p>
+<p align="center">written in svelte <img src="./static/assets/4WeirdBuff.png" width="26" /></p>
 
 If you think I am cool, you should totally [follow me on twitter](https://twitter.com/n3k0lai) and [twitch](https://twitch.tv/n3k0lai).
 
