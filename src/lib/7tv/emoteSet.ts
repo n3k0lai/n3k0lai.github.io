@@ -1,5 +1,5 @@
-import type { Emote } from "./emote.d.ts";
-import type { User } from "./user.d.ts";
+import type { Emote } from "./emote.js";
+import type { User } from "./user.js";
 
 export interface EmoteSet {
 	id: string;

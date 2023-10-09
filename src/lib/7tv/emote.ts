@@ -1,7 +1,7 @@
 // ripped from https://github.com/SevenTV/Website/blob/dev/src/structures/Emote.ts
 
 
-import type { User } from "./user.d.ts";
+import type { User } from "./user.js";
 
 export interface Emote {
 	id: string;
