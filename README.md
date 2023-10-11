@@ -21,6 +21,8 @@ Meta
 UI
 - [ ] nav bar
 - [ ] footer
+  - [ ] social icons
+- [ ] splash font
 Blog Engine
 - [ ] directory page
 - [ ] post

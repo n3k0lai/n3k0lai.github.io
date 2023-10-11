@@ -5,7 +5,10 @@
 	import Hamburger from './Hamburger.svelte'
 </script>
 
-<!-- Contents of this file will be used in the header and the responsive hamburger menu. -->
+<!-- 
+  Contents of this file will be used in the header 
+  and the responsive hamburger menu. 
+-->
 <nav class="main-nav 
             z-2 w-full h-20
             flex flex-col justify-center 
@@ -14,9 +17,9 @@
             opacity-0 md:opacity-100 md:translate-x-0 md:translate-y-0" 
      class:open={$isMenuOpen}>
 	<div class="flex 
-             flex-wrap md:flex-nowrap 
-             md:justify-start md:items-center 
-             p-0 m-0">
+              flex-wrap md:flex-nowrap 
+              md:justify-start md:items-center 
+              p-0 m-0">
 		{#each navItems as page}
 		<NavItem href={page.route}>
 			{page.title}
